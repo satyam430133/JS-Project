@@ -1,0 +1,181 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "database": [
+    {
+      "Names": "NAME",
+      "Username": "USERNAME ",
+      "Number": "CONTACT NUMBER",
+      "Password": "PASSWORD",
+      "Confirm_Password": "CONFIRM PASSWORD",
+      "id": 1
+    },
+    {
+      "Names": "Satyam Badal",
+      "Username": "satyambadal48@gmail.com",
+      "Number": "6264263949",
+      "Password": "12121212",
+      "Confirm_Password": "12121212",
+      "id": 2
+    },
+    {
+      "Names": "ankit salve",
+      "Username": "salve@gmail.com",
+      "Number": "7999620930",
+      "Password": "salve0101",
+      "Confirm_Password": "salve0101",
+      "id": 3
+    },
+    {
+      "Names": "aman namdeo ",
+      "Username": "namdeo@gmail.com",
+      "Number": "6263317493",
+      "Password": "namdeo0101",
+      "Confirm_Password": "namdeo0101",
+      "id": 4
+    },
+    {
+      "Names": "alok",
+      "Username": "alok@gmail.com",
+      "Number": "1234567891",
+      "Password": "12341234",
+      "Confirm_Password": "12341234",
+      "id": 5
+    },
+    {
+      "Names": "aditya ",
+      "Username": "aditya@gmail.com",
+      "Number": "1234567891",
+      "Password": "12341234",
+      "Confirm_Password": "12341234",
+      "id": 6
+    },
+    {
+      "Names": "harsh",
+      "Username": "harsh@gmail.com",
+      "Number": "1234567891",
+      "Password": "12341234",
+      "Confirm_Password": "12341234",
+      "id": 7
+    },
+    {
+      "Names": "ritik",
+      "Username": "ritik@gmail.com",
+      "Number": "1234567891",
+      "Password": "12341234",
+      "Confirm_Password": "12341234",
+      "id": 8
+    },
+    {
+      "Names": "ritika",
+      "Username": "ritika@gmail.com",
+      "Number": "1234567891",
+      "Password": "12341234",
+      "Confirm_Password": "12341234",
+      "id": 9
+    },
+    {
+      "Names": "ritesh",
+      "Username": "ritesh@gmail.com",
+      "Number": "1234567891",
+      "Password": "12341234",
+      "Confirm_Password": "12341234",
+      "id": 10
+    },
+    {
+      "Names": "ruchit",
+      "Username": "ruchit@gmail.com",
+      "Number": "1234567891",
+      "Password": "12341234",
+      "Confirm_Password": "12341234",
+      "id": 11
+    },
+    {
+      "Names": "ramesh",
+      "Username": "ramesh@gmail.com",
+      "Number": "1234567891",
+      "Password": "12341234",
+      "Confirm_Password": "12341234",
+      "id": 12
+    },
+    {
+      "Names": "indrajeet",
+      "Username": "indrajeet@gmail.com",
+      "Number": "1234567891",
+      "Password": "12341234",
+      "Confirm_Password": "12341234",
+      "id": 13
+    },
+    {
+      "Names": "bhau",
+      "Username": "bhau@gmail.com",
+      "Number": "1234567891",
+      "Password": "12341234",
+      "Confirm_Password": "12341234",
+      "id": 14
+    },
+    {
+      "Names": "deepak ",
+      "Username": "deepak@gmail.com",
+      "Number": "1234567891",
+      "Password": "12341234",
+      "Confirm_Password": "12341234",
+      "id": 15
+    },
+    {
+      "Names": "zahir",
+      "Username": "zahir@gmail.com",
+      "Number": "1234567891",
+      "Password": "12341234",
+      "Confirm_Password": "12341234",
+      "id": 16
+    },
+    {
+      "Names": "lakhan",
+      "Username": "lakhan@gmail.com",
+      "Number": "1234567891",
+      "Password": "12341234",
+      "Confirm_Password": "12341234",
+      "id": 17
+    },
+    {
+      "Names": "himesh",
+      "Username": "himesh@gmail.com",
+      "Number": "1234567891",
+      "Password": "12341234",
+      "Confirm_Password": "12341234",
+      "id": 18
+    },
+    {
+      "Names": "mukesh",
+      "Username": "mukesh@gmail.com",
+      "Number": "1234567891",
+      "Password": "12341234",
+      "Confirm_Password": "12341234",
+      "id": 19
+    },
+    {
+      "Names": "munabar",
+      "Username": "munabar@gmail.com",
+      "Number": "1234567891",
+      "Password": "12341234",
+      "Confirm_Password": "12341234",
+      "id": 20
+    }
+  ]
+}

@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Shopstic </title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        /* #mainsection{
+            display: none;
+        } */
+    </style>
+</head>
+<body >
+    <input type="checkbox" id="check1" hidden>
+    <!-- <img id="loadimg1" src="/images/loadimg1.gif" alt=""> -->
+    <!-- ========================start of website======================== -->
+    <section id="mainsection">
+        <!-- <input type="checkbox" id="check">
+            <div class="">
+                <label id="label" for="check"> <i class="fa-solid fa-bars fa-xl"> </i> </label>
+            </div>  -->
+            <nav id="navbar1">
+                <ul>
+                    <li> <img src="/images/logo.png" alt="" height="50px"> </li>
+                    <li> 
+                        <ul id="navbar1divv">
+                            <li> <a href="index.html"> Home </a> </li>
+                            <li> <a href="newarrival.html"> New Arrival </a> </li>
+                            <li> <a href="aboutus.html"> About Us </a> </li>
+                            <li> <a href="allbrands.html"> All Brands </a> </li>
+                            <li> <a href="bestdeals.html"> Best Deals </a> </li>
+                            <li> <a href="blog.html"> Blog </a> </li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        <!-- ========================secand navbar======================== -->
+        <nav id="navbar2">
+            <div class="navdiv1">
+                <ul>
+                    <li> <a href="404.html"> <i class="fa-solid fa-location-dot"></i> Find Store </a> </li> |
+                    <li> <a href="404.html"> <i class="fa-regular fa-envelope"></i> satyambadal48@gmail.com </a> </li> |
+                    <li> <a href="newarrival.html"> Offers & Values </a> </li> |
+                    <li> <a href="bestdeals.html"> Everyday Savers </a> </li>
+                </ul>
+                <ul>
+                    <li> <a href="404.html"> English </a> </li> |
+                    <li> <a href="404.html"> USD </a> </li>
+                </ul>
+            </div>
+            <div class="navdiv2">
+                <ul>
+                    <li> <img src="/images/logo.png" alt="" height="60px" > </li>
+                </ul>
+                <ul>
+                    <li style="height: 42px;"> <input type="text"  id="searchbar"> </li>
+                    <li> <button> SEARCH </button> </li>
+                </ul>
+                <ul>
+                    <li> <a href="login.html"> Login </a> </li> /
+                    <li> <a href="signin.html"> Register </a> </li>
+                </ul>
+            </div>
+            <div class="navlist3">
+                <ul> 
+                    <li> <button class="categories"> <i class="fa-solid fa-bars-staggered"> </i> SHOP BY CATEGORIES </li>
+                    <li style="border-bottom: solid 2px #f6891a;"> <a href="index.html"> Home </a> </li>
+                    <li> <a href="newarrival.html"> New Arrival </a> </li>
+                    <li> <a href="aboutus.html"> About Us </a> </li>
+                    <li onmouseenter="brandlist()" onmouseleave="brandlistclose()" > <a href="allbrands.html"> All Brands </a> </li>
+                    <li> <a href="bestdeals.html"> Best Deals </a> </li>
+                    <li> <a href="blog.html"> Blog </a> </li>
+                </ul>
+                <ul>
+                    <li> <i class="fa-solid fa-rocket"></i> Free International Delhivery </li>
+                </ul>
+            </div>
+        </nav>
+        <div id="allbrandsdd" onmouseenter="brandlist()" onmouseleave="brandlistclose()">
+            <ul> 
+                <li> <a href="bestdeals.html"> Gadget Zone </a> </li>
+                <li> <a href="bestdeals.html"> Initech Space </a> </li>
+                <li> <a href="bestdeals.html"> Looney Tunes </a> </li>
+                <li> <a href="bestdeals.html"> Massive Dynamic </a> </li>
+                <li> <a href="bestdeals.html"> Pro Tech Gear </a> </li>
+                <li> <a href="bestdeals.html"> Soylent Green </a> </li>
+                <li> <a href="bestdeals.html"> The Simpsons </a> </li>
+                <li> <a href="bestdeals.html"> Weeds Capital </a> </li>
+            </ul>
+        </div> 
+        <!-- ========================secand navbar======================== -->
+        <div id="afternavbar">
+            <div class="afternavchild1">
+                <ul>
+                    <li onmouseenter="fashioncat()" onmouseleave="fashioncatclose()"> <a href="newarrival.html"> Fashion  <i id="fashionarrow" class="fa-solid fa-caret-right" ></i> </a> </li>
+                    <li> <a href="newarrival.html"> Jewellery </a> </li>
+                    <li> <a href="newarrival.html"> Watches </a> </li>
+                    <li onmouseenter="outerwear()" onmouseleave="outerwearleave()" > <a href="newarrival.html"> Outerwear <i id="outerweararrow" class="fa-solid fa-caret-right"></i></a> </li>
+                    <li> <a href="newarrival.html"> Cosmetics </a> </li>
+                    <li> <a href="newarrival.html"> Accessories </a> </li>
+                    <li> <a href="newarrival.html"> Electronic </a> </li>
+                    <li> <a href="newarrival.html"> Furniture </a> </li>
+                    <li> <a href="newarrival.html"> Sunglasses </a> </li>
+                    <li> <a href="newarrival.html"> Trousers </a> </li>
+                    <li> <a href="newarrival.html"> Silver Earrings </a> </li>
+                    <li> <a href="newarrival.html"> Leather Watch </a> </li>
+                    <li> <a href="newarrival.html"> More Categories <i id="morearrow" class="fa-solid fa-caret-down"></i></a> </li>
+                </ul>
+            </div>
+            <div class="afternavchild2" onmouseenter="showbutton()" onmouseleave="showbuttonleave()">
+                <ul>
+                    <li> <img id="crowser1" src="/images/crowser1.jpg" alt="" height="510px" width="100%"> </li>
+                    <li> <img id="crowser2" src="/images/crowser2.jpg" alt="" height="510px" width="100%"> </li>
+                </ul> 
+            </div>
+        </div>
+        <div> 
+            <div id="onimagebutton2" onmouseenter="showbutton()" onmouseleave="showbuttonleave()">
+                <p id="p"> STARTING AT ONLY $500 </p>
+                <h1 id="h"> Women Using VR <br> Headset </h1>
+                <button> SHOP NOW </button>
+            </div>
+            <div id="onimagebutton" onmouseenter="showbutton()" onmouseleave="showbuttonleave()" >
+                <div> <button onclick="changeimage1()"> <i class="fa-solid fa-chevron-left"></i> </button> </div>
+                <div> <button onclick="changeimage2()"> <i class="fa-solid fa-chevron-right"></i> </button> </div>
+            </div>
+        </div>
+        <div id="fashioninfo" onmouseenter="fashioncat()" onmouseleave="fashioncatclose()">
+            <table>
+                <tr>
+                    <th> <a href="bestdeals.html"> Apparel </a> </th>
+                    <th> <a href="bestdeals.html"> Outerwear </a> </th>
+                    <th> <a href="bestdeals.html"> Footwear </a> </th>
+                </tr>
+                <tr>
+                    <td> <a href="bestdeals.html"> Ethnic Wear </a> </td>
+                    <td> <a href="bestdeals.html"> Women's Clothing </a> </td>
+                    <td> <a href="bestdeals.html"> Leather Watch </a> </td>
+                </tr>
+                <tr>  
+                    <td> <a href="bestdeals.html"> Sports Wear </a> </td>
+                    <td> <a href="bestdeals.html"> Men's Clothing </a> </td>
+                    <td> <a href="bestdeals.html"> Cabinet Table </a> </td>
+                </tr>
+                <tr>
+                    <td> <a href="bestdeals.html"> Loungewear </a> </td>
+                    <td> <a href="bestdeals.html"> Sneakers Shoes </a> </td>
+                    <td> <a href="bestdeals.html"> Headphones </a> </td>
+                </tr>
+                <tr>
+                    <td> <a href="bestdeals.html"> Trousers </a> </td>
+                    <td> <a href="bestdeals.html"> Silver Earrings  </a> </td>
+                    <td> <a href="bestdeals.html"> Sunglasses </a> </td>
+                </tr>
+            </table>
+            <img src="/images/fashioncat.jpg" alt="">
+        </div>
+        <div id="outerwearinfo" onmouseenter="outerwear()" onmouseleave="outerwearleave()">
+            <ul>
+                <li> <a href="newarrival.html"> Women's Clothes </a> </li>
+                <li> <a href="newarrival.html"> Men's Clothes </a> </li>
+                <li> <a href="newarrival.html"> Sneakers Shoes </a> </li>
+                <li> <a href="newarrival.html"> Silver Earrings </a> </li>
+            </ul>
+        </div>
+        <div class="infomain">
+        <div id="info">
+            <div style="border-left: none;" class="infochild1">
+                <h3> Worldwide Shipping </h3>
+                <p> Order Above $100 </p>
+            </div>
+            <div class="infochild2">
+                <h3> Money Back Guarantee </h3>
+                <p> Guarantee With in 30 Days </p>
+            </div>
+            <div class="infochild3">
+                <h3> Offers And Discounts </h3>
+                <p> Back Returns in 7 Days </p>
+            </div>
+            <div class="infochild4">
+                <h3> 24/7 Support Services </h3>
+                <p> Any Time Support </p>
+            </div>
+        </div>
+        </div>
+        <div id="latestproductsheading">
+            <div class="latestproductsheadingchild1"> 
+                <h1> Latest Products </h1>
+            </div>
+            <div class="latestproductsheadingchild2">
+                <i onclick="lpprevious()" class="fa-solid fa-chevron-left fa-xl"></i> &nbsp; <i onclick="lpnext()" class="fa-solid fa-chevron-right fa-xl"></i>
+            </div>
+        </div>
+        <div id="lpcards">
+
+        </div>
+        <div id="offers">
+            <div class="offerch">
+                <div class="offersch">
+                    <img src="/images/sub-banner-1.jpg" alt="">
+                    <p> Buy Comfortable <br> Wooden Chair </p>
+                    <b> $150 </b>
+                    <button> SHOP NOW </button>
+                </div>
+            </div>
+            <div class="offerch">
+                <div class="offersch">
+                    <img src="/images/sub-banner-2.jpg" alt="">
+                    <p> Biggest Deals <br> On Clothes </p>
+                    <b> $170 </b>
+                    <button> SHOP NOW </button>
+                </div>
+            </div>
+            <div class="offerch">
+                <div class="offersch">
+                <img src="/images/sub-banner-3.jpg" alt="">
+                    <p> Best Quality <br> Controllers </p>
+                    <b> $180 </b>
+                    <button> SHOP NOW </button>
+                </div>
+            </div>
+        </div>
+        <div id="featuredproductsheading">
+            <div class="featuredproductsheadingchild1"> 
+                <h1> Featured Products </h1>
+            </div>
+            <div class="featuredproductsheadingchild2">
+                <i onclick="feapprevious()" class="fa-solid fa-chevron-left fa-xl"></i> &nbsp; <i onclick="feapnext()" class="fa-solid fa-chevron-right fa-xl"></i>
+            </div>
+        </div>
+        <div id="fpcards">
+
+        </div>
+        <div id="shopbycatheading">
+            <div class="shopbycatheadingchild1"> 
+                <h1> Shop By Categories </h1>
+            </div>
+            <div class="shopbycatheadingchild2">
+                <i onclick="shopbyprevious()" class="fa-solid fa-chevron-left fa-xl"></i> &nbsp; <i onclick="shopbynext()" class="fa-solid fa-chevron-right fa-xl"></i>
+            </div>
+        </div>
+        <div id="shopcards">
+
+        </div>
+        <div id="novadress">
+            <div class="wrapdress">
+                <div class="wrapdresschild">
+                    <img src="https://demos.codezeel.com/prestashop/PRS20/PRS200492/img/cms/cms-banner-1.jpg" alt="">
+                    <p> Save Up To 20% Off </p>
+                    <h2> New Florence Wrap <br> Dress </h2>
+                    <button> SHOP NOW </button>
+                </div>
+            </div>
+            <div class="nova">
+                <div class="novachild">
+                    <img src="https://demos.codezeel.com/prestashop/PRS20/PRS200492/img/cms/cms-banner-2.jpg" alt="">
+                    <p> Save Up To 30% Off </p>
+                    <h2> Hauwei Nova Y70 <br> Mobile </h2>
+                    <button> SHOP NOW </button>
+                </div>
+            </div>
+        </div>
+        <div id="dealoftheday">
+            <div class="dealofthedaychild1"> 
+                <h1> Deal Of The Day </h1>
+            </div>
+            <div class="dealofthedaychild2">
+                <i onclick="dotdprevious()" class="fa-solid fa-chevron-left fa-xl"></i> &nbsp; <i onclick="dotdnext()" class="fa-solid fa-chevron-right fa-xl"></i>
+            </div>
+        </div>
+        <div id="dotdcards">
+
+        </div>
+        <div id="freeshipping">
+            <ul>
+                <li> <h1>  FREE SHIPPING </h1> </li>
+                <li> <p> Free Delivery Now On Your First Order and Over $200 </p> </li>
+                <li> <h1> - ONLY $200* </h1> </li>
+            </ul>
+        </div>
+        <div class="sofaset">
+            <div class="sofasetchild">
+                <img src="https://demos.codezeel.com/prestashop/PRS20/PRS200492/img/cms/cms-banner-3.jpg" alt="">
+                <p> STARTING AT ONLY $500 </p>
+                <h1> Casaliving Minta 4 Seater <br> Sofa Set </h1>
+                <button> SHOP NOW </button>
+            </div>
+        </div>
+        <div id="review">
+            <div class="reviewchild1"> 
+                <h1> What Our Clients Say </h1>
+            </div>
+            <div class="reviewchild2">
+                <i onclick="revprevious()" class="fa-solid fa-chevron-left fa-xl"></i> &nbsp; <i onclick="revnext()" class="fa-solid fa-chevron-right fa-xl"></i>
+            </div>
+        </div>
+        <div id="reviewcards">
+            <img id="img1" src="/images/client1.png" alt="" height="238" width="427">
+            <img id="img2" src="/images/client2.png" alt="" height="238" width="427">
+            <img id="img3" src="/images/client3.png" alt="" height="238" width="427">
+            <img id="img4" src="/images/client4.png" alt="" height="238" width="427">
+        </div>
+        <div id="blog">
+            <div class="blogchild1"> 
+                <h1> From The Blog </h1>
+            </div>
+            <div class="blogchild2">
+                <i onclick="return bgprevious()" class="fa-solid fa-chevron-left fa-xl"></i> &nbsp; <i onclick="bgnext()" class="fa-solid fa-chevron-right fa-xl"> </i>
+            </div>
+        </div>
+        <div id="blogcard">
+            <div id="bgchild1">
+                <br> <br>
+                <img src="https://demos.codezeel.com/prestashop/PRS20/PRS200492/img/psblog/b/9/1105_750/b-blog-7.jpg" alt="">
+                <p class="blogdate"> <i class="fa-regular fa-clock"></i> 26 April 2022 </p>
+                <p> Nullam ullamcorper ornare.... </p>
+                <p> suspendisse posuere, diam in bibendum lobortis, turpis ipsum aliquam...</p>
+                <b> READ MORE </b>
+            </div>
+            <div class="bgchild2">
+                <br> <br>
+                <img src="https://demos.codezeel.com/prestashop/PRS20/PRS200492/img/psblog/b/8/1105_750/b-blog-6.jpg" alt="">
+                <p class="blogdate"> <i class="fa-regular fa-clock"></i> 12 January 2023 </p>
+                <p> Turpis at eleifend Aenean porta </p>
+                <p> Turpis at eleifend ps mi elit Aenean porta ac sed faucibus. Nunc urna...</p>
+                <b> READ MORE </b>
+
+            </div>
+            <div class="bgchild3">
+                <br> <br>
+                <img src="https://demos.codezeel.com/prestashop/PRS20/PRS200492/img/psblog/b/7/1105_750/b-blog-5.jpg" alt="">
+                <p class="blogdate"> <i class="fa-regular fa-clock"></i> 18 June 2023 </p>
+                <p> Morbi condimentum molestie Nam </p>
+                <p> Mi vitae magnis Fusce laoreet nibh felis porttitor laoreet Vestibulum...</p>
+                <b> READ MORE </b>
+            </div>
+            <div class="bgchild4">
+                <br> <br>
+                <img src="https://demos.codezeel.com/prestashop/PRS20/PRS200492/img/psblog/b/6/1105_750/b-blog-4.jpg" alt="">
+                <p class="blogdate"> <i class="fa-regular fa-clock"></i> 13 August 2023 </p>
+                <p> Urna pretium elit mauris cursus</p>
+                <p> Mi vitae magnis Fusce laoreet nibh felis porttitor laoreet Vestibulum...</p>
+                <b> READ MORE </b>
+
+            </div>
+            <div class="bgchild5">
+                <br> <br>
+                <img src="https://demos.codezeel.com/prestashop/PRS20/PRS200492/img/psblog/b/5/1105_750/b-blog-3.jpg" alt="">
+                <p class="blogdate"> <i class="fa-regular fa-clock"></i> 6 December 2023 </p>
+                <p> Morbi condimentum molestie Nam </p>
+                <p> Mi vitae magnis Fusce laoreet nibh felis porttitor laoreet Vestibulum...</p>
+                <b> READ MORE </b>
+            </div>
+        </div>
+        <div id="brand">
+            <div class="brandchild1"> 
+                <h1> Shop By Brands </h1>
+            </div>
+            <div class="brandchild2">
+                <i onclick="return brandprevious()" class="fa-solid fa-chevron-left fa-xl"></i> &nbsp; <i onclick="brandnext()" class="fa-solid fa-chevron-right fa-xl"> </i>
+            </div>
+        </div>
+        <div id="brandcards">
+            <div id="bcchild1">
+                <img src="https://demos.codezeel.com/prestashop/PRS20/PRS200492/img/m/6.jpg" alt="">
+            </div>
+            <div id="bcchild2">
+                <img src="https://demos.codezeel.com/prestashop/PRS20/PRS200492/img/m/7.jpg" alt="">
+            </div>
+            <div id="bcchild3">
+                <img src="https://demos.codezeel.com/prestashop/PRS20/PRS200492/img/m/5.jpg" alt="">
+            </div>
+            <div id="bcchild4">
+                <img src="https://demos.codezeel.com/prestashop/PRS20/PRS200492/img/m/3.jpg" alt="">
+            </div>
+            <div id="bcchild5"> 
+                <img src="https://demos.codezeel.com/prestashop/PRS20/PRS200492/img/m/8.jpg" alt="">
+            </div>
+            <div id="bcchild6">
+                <img src="https://demos.codezeel.com/prestashop/PRS20/PRS200492/img/m/4.jpg" alt="">
+            </div>
+            <div id="bcchild7">
+                <img src="https://demos.codezeel.com/prestashop/PRS20/PRS200492/img/m/9.jpg" alt="">
+            </div>
+            <div id="bcchild8">
+                <img src="https://demos.codezeel.com/prestashop/PRS20/PRS200492/img/m/10.jpg" alt="">
+            </div>
+        </div>
+        <div id="instagram">
+            <img id="insta1" src="https://demos.codezeel.com/prestashop/PRS20/PRS200492/modules/cz_instagramfeeds/views/img/instapic/1.jpg" alt="">
+            <img id="insta2" src="https://demos.codezeel.com/prestashop/PRS20/PRS200492/modules/cz_instagramfeeds/views/img/instapic/2.jpg" alt="">
+            <img id="insta3" src="https://demos.codezeel.com/prestashop/PRS20/PRS200492/modules/cz_instagramfeeds/views/img/instapic/3.jpg" alt="">
+            <img id="insta4" src="https://demos.codezeel.com/prestashop/PRS20/PRS200492/modules/cz_instagramfeeds/views/img/instapic/4.jpg" alt="">
+            <img id="insta5" src="https://demos.codezeel.com/prestashop/PRS20/PRS200492/modules/cz_instagramfeeds/views/img/instapic/5.jpg" alt="">
+            <img id="insta6" src="https://demos.codezeel.com/prestashop/PRS20/PRS200492/modules/cz_instagramfeeds/views/img/instapic/6.jpg" alt="">
+            <img id="insta7" src="https://demos.codezeel.com/prestashop/PRS20/PRS200492/modules/cz_instagramfeeds/views/img/instapic/7.jpg" alt="">
+            <img id="insta8" src="https://demos.codezeel.com/prestashop/PRS20/PRS200492/modules/cz_instagramfeeds/views/img/instapic/8.jpg" alt="">
+        </div>
+        <div id="instaarrow" >
+            <i onclick="instaimgp()" class="fa-solid fa-chevron-left fa-xl"></i> &nbsp; <i onclick="instaimgn()" class="fa-solid fa-chevron-right fa-xl"> </i>
+        </div>
+        <div id="colorrr">
+
+        </div>
+        <footer id="footer">
+            <div  class="footchild1">
+                <h2> Contact Us </h2>
+                <p> Shopstic - Super Mega Store <br>
+                    507-Union Trade Centre <br>
+                    France </p>
+                <p> <a href="404.html"> satyambadal48@gmail.com </a> </p>
+                <h1> (+91) 6264-263-949 </h1>
+                <h1> Online Chat <br> Get Expert Help </h1>
+            </div>
+            <div class="footchild2">
+                <div> 
+                    <h2> Products </h2>
+                    <ul>
+                        <li> <a href="bestdeals.html"> Prices Drop </a> </li>
+                        <li> <a href="newarrival.html"> New Products </a> </li>
+                        <li> <a href="bestdeals.html"> Best Sales </a> </li>
+                        <li> <a href="aboutus.html"> Contact Us </a> </li>
+                        <li> <a href="aboutus.html"> Sitemap </a> </li>
+                        <li> <a href="allbrands.html"> Stores </a> </li>
+                    </ul>
+                </div>
+                <div>
+                    <h2> Our Company </h2>
+                    <ul>
+                        <li> <a href="login.html"> Delhivery </a> </li>
+                        <li> <a href="404.html"> Legal Notice </a> </li>
+                        <li> <a href="aboutus.html"> Terms & Condition Of Use </a> </li>
+                        <li> <a href="aboutus.html"> About Us  </a> </li>
+                        <li> <a href="login.html"> Secure Payment </a> </li>
+                        <li> <a href="login.html"> Login </a> </li>
+                    </ul>
+                </div>
+                <div>
+                    <h2> Your Account </h2>
+                    <ul>
+                        <li> <a href="login.html"> Order Traking </a> </li>
+                        <li> <a href="signin.html"> Sign In </a> </li>
+                        <li> <a href="signin.html"> Create Account </a> </li>
+                        <li> <a href="login.html"> My Alerts </a> </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+        <div id="lastdiv">
+            <div>
+                <a href="404.html"> <i class="fa-brands fa-facebook-f"></i> </a>
+                <a href="404.html"> <i class="fa-brands fa-twitter"></i> </a>
+                <a href="404.html"> <i class="fa-brands fa-youtube"></i> </a>
+                <a href="404.html"> <i class="fa-brands fa-pinterest-p"></i> </a>
+                <a href="404.html"> <i class="fa-brands fa-instagram"></i> </a>
+            </div>
+            <div>
+                <a href="tel:+916264263949"> © 2023 - Ecommerce software by Satyam.dev </a> 
+            </div>
+            <div>
+                <a href="404.html"> <i class="fa-brands fa-cc-visa"></i> </a>
+                <a href="404.html"> <i class="fa-brands fa-cc-mastercard"></i> </a>
+                <a href="404.html"> <i class="fa-brands fa-cc-paypal"></i> </a>
+                <a href="404.html"> <i class="fa-brands fa-cc-apple-pay"></i>  </a>
+                <a href="404.html"> <i class="fa-solid fa-credit-card"></i> </a>
+            </div>
+        </div>
+    </section>
+    <!-- ========================end of website======================== -->
+    <script src="index.js">
+    </script>
+</body>
+</html>
